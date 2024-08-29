@@ -1,0 +1,111 @@
+:root{
+    --icon-color : #6c9986
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #a9f0d1;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 5vh;
+}
+
+main{
+    margin: auto;
+    width: fit-content;
+    background-image: url('../img/bg.jpg');
+}
+
+.container h1,h2,h3,h4,h5{
+    font-family: 'Srisakdi';
+}
+
+h1{
+    padding: 50px 0 0 50px;
+}
+
+i{
+    color: var(--icon-color);
+}
+
+
+.wrapper{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 700px;
+    margin: 50px 50px 20px 50px;
+}
+
+.content{
+    width: 40%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: white;
+    padding-bottom: 10px;
+    margin: 20px;
+}
+
+.img>img{
+    height: 120px;
+    width: 100%;
+}
+
+.content h2{
+    text-align: center;
+}
+
+.content p{
+    font-family: 'Poppins';
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 0.8rem;
+}
+
+.button{
+    text-align: center;
+}
+.btn{
+    margin-left: auto;
+    width: 90%;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--icon-color);
+    transition: ease 0.2s;
+}
+
+.rome{
+    background-color: #00A2BA;
+}
+
+
+.nyork{
+    background-color: #DE3241;
+}
+
+.delhi{
+    background-color: #FFC200;
+}
+
+.hanoi{
+    background-color: #0077FF;
+}
+
+h4{
+    text-align: end;
+    padding: 10px;
+}
